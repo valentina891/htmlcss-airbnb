@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containedRoma{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn05.artribune.com/wp-content/uploads/2017/06/Il-Colosseo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+
+.containedCop{
+    background-image: url(https://www.10cose.it/wp-content/uploads/2015/09/copenhagen.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+}
+
+.containedTok{
+    background-image: url(https://img2.tgcom24.mediaset.it/binary/fotogallery/ufficio-stampa/39.$plit/C_2_fotogallery_3081515_10_image.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+}
+
+.titolo{
+    text-align: center;
+    color: white;
+}
