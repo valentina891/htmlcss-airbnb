@@ -1,8 +1,8 @@
 *{
-    margin:0;
+    margin: 5px;
+    margin-bottom: 10px;
     padding: 0;
     /* box-sizing: border-box; */
-    margin-bottom: 20px;
 }
 
 .main{
@@ -16,6 +16,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
+    text-align: center;
+    line-height: 100vh;
 
 }
 
@@ -25,9 +28,21 @@
 
 .tokyo{
     background-image: url(https://img2.tgcom24.mediaset.it/binary/fotogallery/ufficio-stampa/39.$plit/C_2_fotogallery_3081515_10_image.jpg);
-
 }
 
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .titolo{
-
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
